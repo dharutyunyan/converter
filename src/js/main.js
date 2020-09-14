@@ -15,13 +15,10 @@ const TRANSLATIONS = {
 }
 
 const i18n = new VueI18n({
-//change to fr to see translated version
   locale: 'fr',
   messages: TRANSLATIONS,
   silentTranslationWarn: true
 })
-
-//console.log(i18n);
 
 new Vue({
 
