@@ -1,0 +1,65 @@
+$primary-color : #70757A;
+$font-family: sans-serif;
+$border-radius: 6px;
+$border-color:#DFE1E5;
+$inputs-height:36px;
+$inputs-width:130px;
+
+.currency-converter{
+    font-family: $font-family;
+    font-weight: normal;
+}
+
+.fs-12{
+    font-size: 12px;
+}
+
+.fs-14{
+    font-size: 14px;
+}
+
+.fs-16{
+    font-size: 16px;
+}
+
+.fs-36{
+    font-size: 36px;
+}
+
+.primory-text-color{
+    color:$primary-color;
+}
+
+
+.convertor-date-time{
+    color:$primary-color;
+    margin: {
+        bottom: 8px;
+        top: 8px;
+      }
+}
+
+.convertor-data-inputs{
+    margin: {
+        bottom:10px;
+    }
+}
+
+.convertor-data-inputs-block{
+    float: left;
+    height: 44px;
+    margin-right: 8px;
+}
+
+.convertor-data-input{
+    background: transparent;
+    border-radius: $border-radius;
+    border: 1px solid $border-color;
+    height: $inputs-height;
+    width: $inputs-width;
+    padding: 0 0 0 12px;
+}
+
+.clear{
+    clear:left;
+}
