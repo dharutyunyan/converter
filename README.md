@@ -7,7 +7,7 @@ Currency converter tool, built using vuejs/vuex
 Clone from repository
 
 ```
-git clone
+git clone git@github.com:dharutyunyan/converter.git
 ```
 
 install dependencies
