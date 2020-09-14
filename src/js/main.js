@@ -16,7 +16,7 @@ const TRANSLATIONS = {
 
 const i18n = new VueI18n({
 //change to fr to see translated version
-  locale: 'en',
+  locale: 'fr',
   messages: TRANSLATIONS,
   silentTranslationWarn: true
 })
